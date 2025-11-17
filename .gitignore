@@ -1,0 +1,48 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+.fleet/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Prisma (SQLite DB)
+prisma/*.db
+prisma/*.db-shm
+prisma/*.db-wal
+prisma/*.db-journal
+
+# Migration DB copies
+prisma/migrations/*/*.db
+prisma/migrations/*/*-journal
+prisma/migrations/*/*.db-shm
+prisma/migrations/*/*.db-wal
+
+# Prisma Client generated files
+node_modules/.prisma/
+
+# Logs
+logs
+*.log
+
+# Local cache
+coverage/
+*.local
+*.cache
